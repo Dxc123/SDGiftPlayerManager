@@ -1,5 +1,5 @@
 //
-//  OLottieManager.swift
+//  SDLottieManager.swift
 //  Sista
 //
 //  Created by daixingchuang on 2021/8/31.
@@ -9,8 +9,8 @@ import UIKit
 import Lottie
 public typealias finishedClosure = (Bool) -> Void
 
-class OLottieManager: NSObject {
-    static let shared = OLottieManager()
+class SDLottieManager: NSObject {
+    static let shared = SDLottieManager()
     public lazy  var  animationView: AnimationView = {
         let view = AnimationView.init()
         view.contentMode = .scaleAspectFill
@@ -31,7 +31,7 @@ class OLottieManager: NSObject {
 
 }
 
-extension OLottieManager {
+extension SDLottieManager {
 
 //MARK: --  从本地支持的JSON文件加载Lottie动画.
      func playLocalJsonFile(name: String,completion:@escaping finishedClosure){

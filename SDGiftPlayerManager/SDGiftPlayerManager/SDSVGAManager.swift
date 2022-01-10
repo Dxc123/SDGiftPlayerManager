@@ -1,5 +1,5 @@
 //
-//  OSVGAManager.swift
+//  SDSVGAManager.swift
 //  Sista
 //
 //  Created by daixingchuang on 2021/8/31.
@@ -8,8 +8,8 @@
 import UIKit
 import SVGAPlayer
 
-class OSVGAManager: NSObject {
-    static let shared = OSVGAManager()
+class SDSVGAManager: NSObject {
+    static let shared = SDSVGAManager()
     //播放 SVGA动画
     lazy var svgaPlayer: SVGAPlayer = {
            let player = SVGAPlayer.init()
@@ -35,7 +35,7 @@ class OSVGAManager: NSObject {
 
 }
 
-extension OSVGAManager:  SVGAPlayerDelegate{
+extension SDSVGAManager:  SVGAPlayerDelegate{
     
     //设置第几帧触发该方法
     func svgaPlayerDidAnimated(toFrame frame: Int) {
@@ -56,7 +56,7 @@ extension OSVGAManager:  SVGAPlayerDelegate{
     
 }
 
-extension OSVGAManager {
+extension SDSVGAManager {
     /// 播放已下载本地的SVGA礼物特效文件
     /// - Parameters:
     ///   - fileOfath: 本地的礼物特效文件路径
@@ -120,6 +120,6 @@ extension OSVGAManager {
 
 /**
  测试
- OSVGAManager.shared.playSVGAUrl(playOfUrl: URL.init(string: "https://github.com/yyued/SVGA-Samples/blob/master/Walkthrough.svga?raw=true")!)
+ SDSVGAManager.shared.playSVGAUrl(playOfUrl: URL.init(string: "https://github.com/yyued/SVGA-Samples/blob/master/Walkthrough.svga?raw=true")!)
 
 */

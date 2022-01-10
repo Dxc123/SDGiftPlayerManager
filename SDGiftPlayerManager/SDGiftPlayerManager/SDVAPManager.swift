@@ -1,5 +1,5 @@
 //
-//  OVAPManager.swift
+//  SDVAPManager.swift
 //  Sista
 //
 //  Created by daixingchuang on 2021/8/31.
@@ -11,8 +11,8 @@
 import UIKit
 import QGVAPlayer
 
-class OVAPManager: NSObject {
-    static let shared = OVAPManager()
+class SDVAPManager: NSObject {
+    static let shared = SDVAPManager()
     lazy var vapView: UIView = {
            let player = UIView.init()
            player.hwd_enterBackgroundOP = .stop
@@ -43,7 +43,7 @@ class OVAPManager: NSObject {
     
 }
 
-extension OVAPManager {
+extension SDVAPManager {
 
     /// 播放特效动画（VAPView）
     /// - Parameter path: 资源路径
@@ -81,7 +81,7 @@ extension OVAPManager {
     
 }
 
-extension OVAPManager: HWDMP4PlayDelegate{
+extension SDVAPManager: HWDMP4PlayDelegate{
 
     //即将开始播放时询问，true马上开始播放，false放弃播放
     func shouldStartPlayMP4(_ container: UIView!, config: QGVAPConfigModel!) -> Bool {
@@ -132,7 +132,7 @@ extension OVAPManager: HWDMP4PlayDelegate{
     
 }
 
-extension OVAPManager: VAPWrapViewDelegate {
+extension SDVAPManager: VAPWrapViewDelegate {
     
     func vapWrap_viewshouldStartPlayMP4(_ container: UIView, config: QGVAPConfigModel) -> Bool {
         return true

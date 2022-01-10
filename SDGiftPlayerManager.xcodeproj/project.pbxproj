@@ -19,8 +19,8 @@
 		C0707AA0278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A9F278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift */; };
 		C0707AA2278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AA1278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift */; };
 		C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB0278BE68C00FEB9A2 /* OCViewController.m */; };
-		C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */; };
-		C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */; };
+		C0707AB6278BE6FA00FEB9A2 /* SDSVGAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */; };
+		C0707AB7278BE6FA00FEB9A2 /* SDVAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */; };
 		C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */; };
 		C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */; };
 		C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707ABD278C057900FEB9A2 /* cocoapod.m */; };
@@ -64,8 +64,8 @@
 		C0707AAE278BE68C00FEB9A2 /* SDGiftPlayerManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDGiftPlayerManager-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0707AAF278BE68C00FEB9A2 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		C0707AB0278BE68C00FEB9A2 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
-		C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSVGAManager.swift; sourceTree = "<group>"; };
-		C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OVAPManager.swift; sourceTree = "<group>"; };
+		C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSVGAManager.swift; sourceTree = "<group>"; };
+		C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDVAPManager.swift; sourceTree = "<group>"; };
 		C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLottieManager.swift; sourceTree = "<group>"; };
 		C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPalyerConfig.swift; sourceTree = "<group>"; };
 		C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftPlayerManager.h; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		C0707AB2278BE6FA00FEB9A2 /* SDGiftPlayerManager */ = {
 			isa = PBXGroup;
 			children = (
-				C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */,
-				C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */,
+				C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */,
+				C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */,
 				C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */,
 				C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */,
 				C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */,
@@ -441,10 +441,10 @@
 				C0707A83278BE41C00FEB9A2 /* ViewController.swift in Sources */,
 				C0707A7F278BE41C00FEB9A2 /* AppDelegate.swift in Sources */,
 				C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */,
-				C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */,
+				C0707AB7278BE6FA00FEB9A2 /* SDVAPManager.swift in Sources */,
 				C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */,
 				C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */,
-				C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */,
+				C0707AB6278BE6FA00FEB9A2 /* SDSVGAManager.swift in Sources */,
 				C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
