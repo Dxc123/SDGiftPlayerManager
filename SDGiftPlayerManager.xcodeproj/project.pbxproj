@@ -11,7 +11,6 @@
 		2BA400C5C93233AB24DFBF55 /* Pods_SDGiftPlayerManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4420A42564C7E390FF686E28 /* Pods_SDGiftPlayerManager.framework */; };
 		9705E37DD18287259F5E0E32 /* Pods_SDGiftPlayerManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB736A39F867A15EF9F6E12D /* Pods_SDGiftPlayerManagerTests.framework */; };
 		C0707A7F278BE41C00FEB9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */; };
-		C0707A81278BE41C00FEB9A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */; };
 		C0707A83278BE41C00FEB9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A82278BE41C00FEB9A2 /* ViewController.swift */; };
 		C0707A86278BE41C00FEB9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0707A84278BE41C00FEB9A2 /* Main.storyboard */; };
 		C0707A88278BE41D00FEB9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0707A87278BE41D00FEB9A2 /* Assets.xcassets */; };
@@ -51,7 +50,6 @@
 		856481D90E5D8C72D2FB997F /* Pods-SDGiftPlayerManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManager.debug.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager.debug.xcconfig"; sourceTree = "<group>"; };
 		C0707A7B278BE41C00FEB9A2 /* SDGiftPlayerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGiftPlayerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C0707A82278BE41C00FEB9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0707A85278BE41C00FEB9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0707A87278BE41D00FEB9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 			children = (
 				C0707AB2278BE6FA00FEB9A2 /* SDGiftPlayerManager */,
 				C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */,
-				C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */,
 				C0707A82278BE41C00FEB9A2 /* ViewController.swift */,
 				C0707AAF278BE68C00FEB9A2 /* OCViewController.h */,
 				C0707AB0278BE68C00FEB9A2 /* OCViewController.m */,
@@ -442,7 +439,6 @@
 				C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */,
 				C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */,
 				C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */,
-				C0707A81278BE41C00FEB9A2 /* SceneDelegate.swift in Sources */,
 				C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -564,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -621,6 +619,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -631,6 +630,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,7 +642,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SDGiftPlayerManager/SDGiftPlayerManager-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -652,6 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,6 +663,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,7 +674,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SDGiftPlayerManager/SDGiftPlayerManager-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

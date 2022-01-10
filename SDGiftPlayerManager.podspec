@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint SDGiftDownload.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SDGiftPlayerManager.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SDGiftPlayerManager"
   spec.version      = "1.0.0"
-  spec.summary      = "业务礼物特效动画播放封装，包括SVGA格式的动画播放、Lottie播放josn格式动画、VAP(.mp4文件)特效动画播放 "
+  spec.summary      = "业务礼物特效动画播放封装,SVGA格式、Lottie播放josn格式、VAP(.mp4文件)格式"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  业务礼物特效动画播放封装模块
+  封装业务礼物特效动画播放，包括SVGA格式的动画播放、Lottie播放josn格式动画、VAP(.mp4文件)特效动画播放.
                    DESC
 
   spec.homepage     = "https://github.com/Dxc123/SDGiftPlayerManager"
@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftPlayerManager.git", :tag => spec.version.to_s}
 
   spec.source_files  = "SDGiftPlayerManager/**/*.{h,m}"
-  spec.public_header_files = 'SDGiftDownload/Download/SDGiftPlayerManager.h}'
+  spec.public_header_files = 'SDGiftPlayerManager/SDGiftPlayerManager.h}'
  
   spec.requires_arc = true
   spec.ios.deployment_target  = '11.0'
