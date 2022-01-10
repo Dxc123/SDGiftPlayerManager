@@ -1,0 +1,6 @@
+framework module QGVAPlayer {
+  umbrella header "QGVAPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

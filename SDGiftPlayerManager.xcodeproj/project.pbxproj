@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4609735E291429B0B343C5 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E933890FCAAFD9D7E4643 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework */; };
+		2BA400C5C93233AB24DFBF55 /* Pods_SDGiftPlayerManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4420A42564C7E390FF686E28 /* Pods_SDGiftPlayerManager.framework */; };
+		9705E37DD18287259F5E0E32 /* Pods_SDGiftPlayerManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB736A39F867A15EF9F6E12D /* Pods_SDGiftPlayerManagerTests.framework */; };
+		C0707A7F278BE41C00FEB9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */; };
+		C0707A81278BE41C00FEB9A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */; };
+		C0707A83278BE41C00FEB9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A82278BE41C00FEB9A2 /* ViewController.swift */; };
+		C0707A86278BE41C00FEB9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0707A84278BE41C00FEB9A2 /* Main.storyboard */; };
+		C0707A88278BE41D00FEB9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0707A87278BE41D00FEB9A2 /* Assets.xcassets */; };
+		C0707A8B278BE41D00FEB9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0707A89278BE41D00FEB9A2 /* LaunchScreen.storyboard */; };
+		C0707A96278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A95278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.swift */; };
+		C0707AA0278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707A9F278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift */; };
+		C0707AA2278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AA1278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift */; };
+		C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB0278BE68C00FEB9A2 /* OCViewController.m */; };
+		C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */; };
+		C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */; };
+		C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */; };
+		C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0707A92278BE41E00FEB9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0707A73278BE41C00FEB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0707A7A278BE41C00FEB9A2;
+			remoteInfo = SDGiftPlayerManager;
+		};
+		C0707A9C278BE41E00FEB9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0707A73278BE41C00FEB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0707A7A278BE41C00FEB9A2;
+			remoteInfo = SDGiftPlayerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A5022488BD8A39713B99AB /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B7C2CED6DFA1C03911272D0 /* Pods-SDGiftPlayerManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManagerTests/Pods-SDGiftPlayerManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		159D30BA86907D211290F970 /* Pods-SDGiftPlayerManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManager.release.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager.release.xcconfig"; sourceTree = "<group>"; };
+		4420A42564C7E390FF686E28 /* Pods_SDGiftPlayerManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDGiftPlayerManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856481D90E5D8C72D2FB997F /* Pods-SDGiftPlayerManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManager.debug.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager.debug.xcconfig"; sourceTree = "<group>"; };
+		C0707A7B278BE41C00FEB9A2 /* SDGiftPlayerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGiftPlayerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0707A82278BE41C00FEB9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0707A85278BE41C00FEB9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0707A87278BE41D00FEB9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0707A8A278BE41D00FEB9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0707A8C278BE41D00FEB9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0707A91278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDGiftPlayerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0707A95278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPlayerManagerTests.swift; sourceTree = "<group>"; };
+		C0707A9B278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDGiftPlayerManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0707A9F278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPlayerManagerUITests.swift; sourceTree = "<group>"; };
+		C0707AA1278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPlayerManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0707AAE278BE68C00FEB9A2 /* SDGiftPlayerManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDGiftPlayerManager-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0707AAF278BE68C00FEB9A2 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		C0707AB0278BE68C00FEB9A2 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSVGAManager.swift; sourceTree = "<group>"; };
+		C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OVAPManager.swift; sourceTree = "<group>"; };
+		C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLottieManager.swift; sourceTree = "<group>"; };
+		C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPalyerConfig.swift; sourceTree = "<group>"; };
+		C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftPlayerManager.h; sourceTree = "<group>"; };
+		D31E933890FCAAFD9D7E4643 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB736A39F867A15EF9F6E12D /* Pods_SDGiftPlayerManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDGiftPlayerManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFB835CB7CC9F7D909448D2 /* Pods-SDGiftPlayerManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManagerTests.release.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManagerTests/Pods-SDGiftPlayerManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD92929E425DDDC1FB72E0FC /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0707A78278BE41C00FEB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA400C5C93233AB24DFBF55 /* Pods_SDGiftPlayerManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A8E278BE41E00FEB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9705E37DD18287259F5E0E32 /* Pods_SDGiftPlayerManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A98278BE41E00FEB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4609735E291429B0B343C5 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921BFAF8F5038577EB91814C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4420A42564C7E390FF686E28 /* Pods_SDGiftPlayerManager.framework */,
+				D31E933890FCAAFD9D7E4643 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework */,
+				EB736A39F867A15EF9F6E12D /* Pods_SDGiftPlayerManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		999427E9AEE9840E24C32D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				856481D90E5D8C72D2FB997F /* Pods-SDGiftPlayerManager.debug.xcconfig */,
+				159D30BA86907D211290F970 /* Pods-SDGiftPlayerManager.release.xcconfig */,
+				06A5022488BD8A39713B99AB /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.debug.xcconfig */,
+				FD92929E425DDDC1FB72E0FC /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.release.xcconfig */,
+				0B7C2CED6DFA1C03911272D0 /* Pods-SDGiftPlayerManagerTests.debug.xcconfig */,
+				EBFB835CB7CC9F7D909448D2 /* Pods-SDGiftPlayerManagerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0707A72278BE41C00FEB9A2 = {
+			isa = PBXGroup;
+			children = (
+				C0707A7D278BE41C00FEB9A2 /* SDGiftPlayerManager */,
+				C0707A94278BE41E00FEB9A2 /* SDGiftPlayerManagerTests */,
+				C0707A9E278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests */,
+				C0707A7C278BE41C00FEB9A2 /* Products */,
+				999427E9AEE9840E24C32D1F /* Pods */,
+				921BFAF8F5038577EB91814C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0707A7C278BE41C00FEB9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0707A7B278BE41C00FEB9A2 /* SDGiftPlayerManager.app */,
+				C0707A91278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.xctest */,
+				C0707A9B278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0707A7D278BE41C00FEB9A2 /* SDGiftPlayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0707AB2278BE6FA00FEB9A2 /* SDGiftPlayerManager */,
+				C0707A7E278BE41C00FEB9A2 /* AppDelegate.swift */,
+				C0707A80278BE41C00FEB9A2 /* SceneDelegate.swift */,
+				C0707A82278BE41C00FEB9A2 /* ViewController.swift */,
+				C0707AAF278BE68C00FEB9A2 /* OCViewController.h */,
+				C0707AB0278BE68C00FEB9A2 /* OCViewController.m */,
+				C0707A84278BE41C00FEB9A2 /* Main.storyboard */,
+				C0707A87278BE41D00FEB9A2 /* Assets.xcassets */,
+				C0707A89278BE41D00FEB9A2 /* LaunchScreen.storyboard */,
+				C0707A8C278BE41D00FEB9A2 /* Info.plist */,
+				C0707AAE278BE68C00FEB9A2 /* SDGiftPlayerManager-Bridging-Header.h */,
+			);
+			path = SDGiftPlayerManager;
+			sourceTree = "<group>";
+		};
+		C0707A94278BE41E00FEB9A2 /* SDGiftPlayerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0707A95278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.swift */,
+			);
+			path = SDGiftPlayerManagerTests;
+			sourceTree = "<group>";
+		};
+		C0707A9E278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0707A9F278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift */,
+				C0707AA1278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift */,
+			);
+			path = SDGiftPlayerManagerUITests;
+			sourceTree = "<group>";
+		};
+		C0707AB2278BE6FA00FEB9A2 /* SDGiftPlayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0707AB3278BE6FA00FEB9A2 /* OSVGAManager.swift */,
+				C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */,
+				C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */,
+				C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */,
+				C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */,
+			);
+			path = SDGiftPlayerManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0707A7A278BE41C00FEB9A2 /* SDGiftPlayerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0707AA5278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManager" */;
+			buildPhases = (
+				01E8163372828947951CD4A6 /* [CP] Check Pods Manifest.lock */,
+				C0707A77278BE41C00FEB9A2 /* Sources */,
+				C0707A78278BE41C00FEB9A2 /* Frameworks */,
+				C0707A79278BE41C00FEB9A2 /* Resources */,
+				449B22F58F01D6A06BFE7004 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDGiftPlayerManager;
+			productName = SDGiftPlayerManager;
+			productReference = C0707A7B278BE41C00FEB9A2 /* SDGiftPlayerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0707A90278BE41E00FEB9A2 /* SDGiftPlayerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0707AA8278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManagerTests" */;
+			buildPhases = (
+				EA7AA7530FF227BDA7C869ED /* [CP] Check Pods Manifest.lock */,
+				C0707A8D278BE41E00FEB9A2 /* Sources */,
+				C0707A8E278BE41E00FEB9A2 /* Frameworks */,
+				C0707A8F278BE41E00FEB9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0707A93278BE41E00FEB9A2 /* PBXTargetDependency */,
+			);
+			name = SDGiftPlayerManagerTests;
+			productName = SDGiftPlayerManagerTests;
+			productReference = C0707A91278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0707A9A278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0707AAB278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManagerUITests" */;
+			buildPhases = (
+				01379A563EC1B07FFD104907 /* [CP] Check Pods Manifest.lock */,
+				C0707A97278BE41E00FEB9A2 /* Sources */,
+				C0707A98278BE41E00FEB9A2 /* Frameworks */,
+				C0707A99278BE41E00FEB9A2 /* Resources */,
+				F09F4D935271115A1CC8D5A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0707A9D278BE41E00FEB9A2 /* PBXTargetDependency */,
+			);
+			name = SDGiftPlayerManagerUITests;
+			productName = SDGiftPlayerManagerUITests;
+			productReference = C0707A9B278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0707A73278BE41C00FEB9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C0707A7A278BE41C00FEB9A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					C0707A90278BE41E00FEB9A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C0707A7A278BE41C00FEB9A2;
+					};
+					C0707A9A278BE41E00FEB9A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C0707A7A278BE41C00FEB9A2;
+					};
+				};
+			};
+			buildConfigurationList = C0707A76278BE41C00FEB9A2 /* Build configuration list for PBXProject "SDGiftPlayerManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0707A72278BE41C00FEB9A2;
+			productRefGroup = C0707A7C278BE41C00FEB9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0707A7A278BE41C00FEB9A2 /* SDGiftPlayerManager */,
+				C0707A90278BE41E00FEB9A2 /* SDGiftPlayerManagerTests */,
+				C0707A9A278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0707A79278BE41C00FEB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0707A8B278BE41D00FEB9A2 /* LaunchScreen.storyboard in Resources */,
+				C0707A88278BE41D00FEB9A2 /* Assets.xcassets in Resources */,
+				C0707A86278BE41C00FEB9A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A8F278BE41E00FEB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A99278BE41E00FEB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01379A563EC1B07FFD104907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		01E8163372828947951CD4A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDGiftPlayerManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		449B22F58F01D6A06BFE7004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager/Pods-SDGiftPlayerManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7AA7530FF227BDA7C869ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDGiftPlayerManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09F4D935271115A1CC8D5A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests/Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0707A77278BE41C00FEB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0707A83278BE41C00FEB9A2 /* ViewController.swift in Sources */,
+				C0707A7F278BE41C00FEB9A2 /* AppDelegate.swift in Sources */,
+				C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */,
+				C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */,
+				C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */,
+				C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */,
+				C0707A81278BE41C00FEB9A2 /* SceneDelegate.swift in Sources */,
+				C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A8D278BE41E00FEB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0707A96278BE41E00FEB9A2 /* SDGiftPlayerManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0707A97278BE41E00FEB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0707AA2278BE41E00FEB9A2 /* SDGiftPlayerManagerUITestsLaunchTests.swift in Sources */,
+				C0707AA0278BE41E00FEB9A2 /* SDGiftPlayerManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0707A93278BE41E00FEB9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0707A7A278BE41C00FEB9A2 /* SDGiftPlayerManager */;
+			targetProxy = C0707A92278BE41E00FEB9A2 /* PBXContainerItemProxy */;
+		};
+		C0707A9D278BE41E00FEB9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0707A7A278BE41C00FEB9A2 /* SDGiftPlayerManager */;
+			targetProxy = C0707A9C278BE41E00FEB9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0707A84278BE41C00FEB9A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0707A85278BE41C00FEB9A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0707A89278BE41D00FEB9A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0707A8A278BE41D00FEB9A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0707AA3278BE41E00FEB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0707AA4278BE41E00FEB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0707AA6278BE41E00FEB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856481D90E5D8C72D2FB997F /* Pods-SDGiftPlayerManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDGiftPlayerManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SDGiftPlayerManager/SDGiftPlayerManager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0707AA7278BE41E00FEB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159D30BA86907D211290F970 /* Pods-SDGiftPlayerManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDGiftPlayerManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SDGiftPlayerManager/SDGiftPlayerManager-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0707AA9278BE41E00FEB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7C2CED6DFA1C03911272D0 /* Pods-SDGiftPlayerManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDGiftPlayerManager.app/SDGiftPlayerManager";
+			};
+			name = Debug;
+		};
+		C0707AAA278BE41E00FEB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFB835CB7CC9F7D909448D2 /* Pods-SDGiftPlayerManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDGiftPlayerManager.app/SDGiftPlayerManager";
+			};
+			name = Release;
+		};
+		C0707AAC278BE41E00FEB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A5022488BD8A39713B99AB /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDGiftPlayerManager;
+			};
+			name = Debug;
+		};
+		C0707AAD278BE41E00FEB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD92929E425DDDC1FB72E0FC /* Pods-SDGiftPlayerManager-SDGiftPlayerManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dxc-iOS.SDGiftPlayerManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDGiftPlayerManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0707A76278BE41C00FEB9A2 /* Build configuration list for PBXProject "SDGiftPlayerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0707AA3278BE41E00FEB9A2 /* Debug */,
+				C0707AA4278BE41E00FEB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0707AA5278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0707AA6278BE41E00FEB9A2 /* Debug */,
+				C0707AA7278BE41E00FEB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0707AA8278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0707AA9278BE41E00FEB9A2 /* Debug */,
+				C0707AAA278BE41E00FEB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0707AAB278BE41E00FEB9A2 /* Build configuration list for PBXNativeTarget "SDGiftPlayerManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0707AAC278BE41E00FEB9A2 /* Debug */,
+				C0707AAD278BE41E00FEB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0707A73278BE41C00FEB9A2 /* Project object */;
+}

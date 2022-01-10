@@ -1,0 +1,37 @@
+PODS:
+  - lottie-ios (3.1.9)
+  - Protobuf (3.19.1)
+  - QGVAPlayer (1.0.16)
+  - SSZipArchive (2.4.2)
+  - SVGAPlayer (2.5.7):
+    - SVGAPlayer/Core (= 2.5.7)
+    - SVGAPlayer/ProtoFiles (= 2.5.7)
+  - SVGAPlayer/Core (2.5.7):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.7):
+    - Protobuf (~> 3.4)
+
+DEPENDENCIES:
+  - lottie-ios (~> 3.1.2)
+  - QGVAPlayer (~> 1.0.16)
+  - SVGAPlayer (~> 2.5.7)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - Protobuf
+    - QGVAPlayer
+    - SSZipArchive
+    - SVGAPlayer
+
+SPEC CHECKSUMS:
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Protobuf: 3724efa50cb2846d7ccebc8691c574e85fd74471
+  QGVAPlayer: e9b96208d7127159b206e9f6bc74e79a18ab7c25
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
+
+PODFILE CHECKSUM: 63e47df35a71123ad635ee2c1284a96779fb2e83
+
+COCOAPODS: 1.11.2
