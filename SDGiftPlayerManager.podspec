@@ -35,8 +35,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftPlayerManager.git", :tag => spec.version.to_s}
 
-  spec.source_files  = "SDGiftPlayerManager/**/*.{h,m}"
+  spec.source_files  = "SDGiftPlayerManager/**/*.{h,m}" 
   spec.public_header_files = 'SDGiftPlayerManager/SDGiftPlayerManager.h}'
+  
+  spec.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
  
   spec.requires_arc = true
   spec.ios.deployment_target  = '11.0'
