@@ -21,7 +21,7 @@
 		C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB0278BE68C00FEB9A2 /* OCViewController.m */; };
 		C0707AB6278BE6FA00FEB9A2 /* SDSVGAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */; };
 		C0707AB7278BE6FA00FEB9A2 /* SDVAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */; };
-		C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */; };
+		C0707AB8278BE6FA00FEB9A2 /* SDLottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB5278BE6FA00FEB9A2 /* SDLottieManager.swift */; };
 		C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */; };
 		C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707ABD278C057900FEB9A2 /* cocoapod.m */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 		C0707AB0278BE68C00FEB9A2 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSVGAManager.swift; sourceTree = "<group>"; };
 		C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDVAPManager.swift; sourceTree = "<group>"; };
-		C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLottieManager.swift; sourceTree = "<group>"; };
+		C0707AB5278BE6FA00FEB9A2 /* SDLottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDLottieManager.swift; sourceTree = "<group>"; };
 		C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPalyerConfig.swift; sourceTree = "<group>"; };
 		C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftPlayerManager.h; sourceTree = "<group>"; };
 		C0707ABD278C057900FEB9A2 /* cocoapod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapod.m; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 			children = (
 				C0707AB3278BE6FA00FEB9A2 /* SDSVGAManager.swift */,
 				C0707AB4278BE6FA00FEB9A2 /* SDVAPManager.swift */,
-				C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */,
+				C0707AB5278BE6FA00FEB9A2 /* SDLottieManager.swift */,
 				C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */,
 				C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */,
 				C0707ABF278C05A700FEB9A2 /* cocoapod.h */,
@@ -442,7 +442,7 @@
 				C0707A7F278BE41C00FEB9A2 /* AppDelegate.swift in Sources */,
 				C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */,
 				C0707AB7278BE6FA00FEB9A2 /* SDVAPManager.swift in Sources */,
-				C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */,
+				C0707AB8278BE6FA00FEB9A2 /* SDLottieManager.swift in Sources */,
 				C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */,
 				C0707AB6278BE6FA00FEB9A2 /* SDSVGAManager.swift in Sources */,
 				C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */,
