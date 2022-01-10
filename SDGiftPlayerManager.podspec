@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "dxc_123" => "daixingchuang@163.com" }
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftPlayerManager.git", :tag => '1.0.1'}
   # spec.source_files  = "SDGiftPlayerManager/**/*.{h,m}"  #OC
-  spec.source_files = 'SDGiftPlayerManager/*.swift' #Swift
+  spec.source_files = 'SDGiftPlayerManager/SDGiftPlayerManager/**/*.swift' #Swift
   # spec.public_header_files = 'SDGiftPlayerManager/SDGiftPlayerManager.h}'
   
   spec.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
