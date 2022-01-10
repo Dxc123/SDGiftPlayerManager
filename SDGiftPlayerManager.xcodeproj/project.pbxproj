@@ -23,6 +23,7 @@
 		C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB4278BE6FA00FEB9A2 /* OVAPManager.swift */; };
 		C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */; };
 		C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */; };
+		C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */ = {isa = PBXBuildFile; fileRef = C0707ABD278C057900FEB9A2 /* cocoapod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLottieManager.swift; sourceTree = "<group>"; };
 		C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGiftPalyerConfig.swift; sourceTree = "<group>"; };
 		C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftPlayerManager.h; sourceTree = "<group>"; };
+		C0707ABD278C057900FEB9A2 /* cocoapod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapod.m; sourceTree = "<group>"; };
+		C0707ABF278C05A700FEB9A2 /* cocoapod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoapod.h; sourceTree = "<group>"; };
 		D31E933890FCAAFD9D7E4643 /* Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDGiftPlayerManager_SDGiftPlayerManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB736A39F867A15EF9F6E12D /* Pods_SDGiftPlayerManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDGiftPlayerManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB835CB7CC9F7D909448D2 /* Pods-SDGiftPlayerManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDGiftPlayerManagerTests.release.xcconfig"; path = "Target Support Files/Pods-SDGiftPlayerManagerTests/Pods-SDGiftPlayerManagerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 				C0707AB5278BE6FA00FEB9A2 /* OLottieManager.swift */,
 				C0707AB9278BF15900FEB9A2 /* SDGiftPalyerConfig.swift */,
 				C0707ABB278BF25700FEB9A2 /* SDGiftPlayerManager.h */,
+				C0707ABF278C05A700FEB9A2 /* cocoapod.h */,
+				C0707ABD278C057900FEB9A2 /* cocoapod.m */,
 			);
 			path = SDGiftPlayerManager;
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 				C0707AB1278BE68C00FEB9A2 /* OCViewController.m in Sources */,
 				C0707AB7278BE6FA00FEB9A2 /* OVAPManager.swift in Sources */,
 				C0707AB8278BE6FA00FEB9A2 /* OLottieManager.swift in Sources */,
+				C0707ABE278C057A00FEB9A2 /* cocoapod.m in Sources */,
 				C0707AB6278BE6FA00FEB9A2 /* OSVGAManager.swift in Sources */,
 				C0707ABA278BF15900FEB9A2 /* SDGiftPalyerConfig.swift in Sources */,
 			);
@@ -547,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -603,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
